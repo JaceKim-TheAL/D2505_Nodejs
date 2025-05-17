@@ -14,7 +14,7 @@
   <tr>
     <td colspan="2" align="center">
       <a href="https://en.wikipedia.org/wiki/Node.js">
-      [Fig. 2023 Stackoverflow 점유률]
+      [Fig] 2023 Stackoverflow 점유률
       </a>
     </td>
   </tr>
