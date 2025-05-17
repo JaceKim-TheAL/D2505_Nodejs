@@ -2,10 +2,24 @@
 > 크로스플랫폼 오픈소스 자바스크립트 런타임 환경으로 V8 자바스크립트 엔진으로 구동되며, 웹 브라우저 바깥에서 자바스크립트 코드를 실행할 수 있다. <br/>
 > 주로 확장성 있는 네트워크 애플리케이션과 서버 사이드 개발에 사용되는 소프트웨어 플랫폼이며, 논블로킹(Non-blocking) I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
 
-<img src="./images/wiki_nodejs_01.png" width="200">
-<img src="./images/wiki_nodejs_02.png" width="200">
+<table border="0px" width="600">
+  <tr>
+    <td width="50%">
+      <img src="./images/wiki_nodejs_01.png" width="300">
+    </td>
+    <td width="50%">
+      <img src="./images/wiki_nodejs_02.png" width="300">
+     </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://en.wikipedia.org/wiki/Node.js">
+      [Fig. 2023 Stackoverflow 점유률]
+      </a>
+    </td>
+  </tr>
+</table>
 
-[Fig. 2023 Stackoverflow 점유률](https://en.wikipedia.org/wiki/Node.js)
 
 ---
 ### 위키백과에서 가져온 Node.js 설명
