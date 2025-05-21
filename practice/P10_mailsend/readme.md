@@ -83,7 +83,8 @@ Email sent successfully: 250 2.0.0 Ok: queued
 PS C:\GitHub\D2505_Nodejs\practice\P10_mailsend>
 ```
 
-
+- 메일전송확인
+<img src="./img/mailtrap_check.png">
 
 
 
