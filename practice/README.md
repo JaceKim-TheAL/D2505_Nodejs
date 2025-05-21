@@ -1,4 +1,4 @@
-<img src="../images/nodejs_practice.png" width="150">
+<img src="../images/nodejs_practice.png" width="300">
 
 # Node.js 실습 코드
 - [Hello Nodejs 실행      ](./hello.js)
