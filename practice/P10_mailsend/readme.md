@@ -8,3 +8,9 @@
 > npm i nodemailer
 ```
 <img src="./img/npm_nodemailer_02.png">
+
+
+```
+> npm i nodemailer
+```
+<img src="./img/npm_nodemailer_03.png">
