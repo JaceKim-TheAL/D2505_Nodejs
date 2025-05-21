@@ -42,7 +42,7 @@ cf. 추천버전은 3년동안 안정적으로 사용할 수 있음.
 
 ### 4. Node.js 설치 확인
 > - node.js가 성공적으로 설치가 되었다면, `npm`도 자동으로 설치가 된다.
-> - **npm(Node Package Manager)** : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자자
+> - **npm(Node Package Manager)** : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자
 > - `PowerShell`에서 설치 확인
 <img src="../images/ps_check.png">
 
