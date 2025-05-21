@@ -1,3 +1,8 @@
+<img src="../../images/nodejs_practice.png" width="150">
+<p style="text-align: right"> 
+    <a href="../README.md">[INDEX]</a>
+</p>
+
 # 간단한 메일보내기 구현
 
 ### 개발환경
