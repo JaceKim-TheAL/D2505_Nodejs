@@ -1,5 +1,8 @@
 # 간단한 메일보내기 구현
 
+### 개발환경
+> 메일전송에 필요한 패키지(Nodemailer) 설치 및 메일전송 플랫폼(Mailtrap.io) 등록
+
 - 구글에서 `npm mail` 이라고 검색
 <img src="./img/npm_nodemailer_01.png">
 
@@ -38,7 +41,8 @@
 <img src="./img/mailtrap_myinbox.png">
 
 ---
-[sendmail.js]
+### 코드구현
+- [sendmail.js]
 ```javascript
 const nodemailer = require('nodemailer');
 const email = {
