@@ -4,13 +4,18 @@
 <img src="./img/npm_nodemailer_01.png">
 
 - **Nodemailer** 패키지 설치
-```
-> npm i nodemailer
-```
 <img src="./img/npm_nodemailer_02.png">
-
 
 ```
 > npm i nodemailer
 ```
 <img src="./img/npm_nodemailer_03.png">
+
+> [package.json]
+```json
+{
+  "dependencies": {
+    "nodemailer": "^7.0.3"
+  }
+}
+```
