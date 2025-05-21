@@ -40,9 +40,9 @@ cf. 추천버전은 3년동안 안정적으로 사용할 수 있음.
 ##### (7) 설치 성공 완료, `Finish` 클릭 
 <img src="../images/setup_07.png">
 
-### 4. Node.js 실행 체크
-> - node.js가 성공적으로 설치가 되었다면, npm도 자동으로 설치가 된다.
-> - npm(Node Package Manager) : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자자
-> - PowerShell에서 버전 체크
+### 4. Node.js 설치 확인
+> - node.js가 성공적으로 설치가 되었다면, `npm`도 자동으로 설치가 된다.
+> - **npm(Node Package Manager)** : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자자
+> - `PowerShell`에서 설치 확인
 <img src="../images/ps_check.png">
 
