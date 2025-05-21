@@ -42,5 +42,5 @@ cf. 추천버전은 3년동안 안정적으로 사용할 수 있음.
 
 ### 4. Node.js 실행 체크
 > PowerShell에서 버전 체크
-<img src="../images/setup_09.png">
+<img src="../images/setup_08.png">
 
