@@ -1,8 +1,9 @@
+<img src="../images/nodejs_logo.png">
 <p style="text-align: right"> 
     <a href="../README.md">[INDEX]</a>
 </p>
 
-# Node.js ?
+# Node.js 개요
 > 크로스플랫폼 오픈소스 자바스크립트 런타임 환경으로 V8 자바스크립트 엔진으로 구동되며, 웹 브라우저 바깥에서 자바스크립트 코드를 실행할 수 있다. <br/>
 > 주로 확장성 있는 네트워크 애플리케이션과 서버 사이드 개발에 사용되는 소프트웨어 플랫폼이며, 논블로킹(Non-blocking) I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
 
