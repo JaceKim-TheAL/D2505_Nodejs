@@ -1,5 +1,5 @@
 <p style="text-align: right"> 
-    <a href="./README.md">[INDEX]</a>
+    <a href="../README.md">[INDEX]</a>
 </p>
 
 # Node.js ?
@@ -9,10 +9,10 @@
 <table border="0px" width="800">
   <tr>
     <td width="50%">
-      <img src="./images/wiki_nodejs_01.png" width="400">
+      <img src="../images/wiki_nodejs_01.png" width="400">
     </td>
     <td width="50%">
-      <img src="./images/wiki_nodejs_02.png" width="400">
+      <img src="../images/wiki_nodejs_02.png" width="400">
      </td>
   </tr>
   <tr>
@@ -37,7 +37,7 @@
 
 #### 1. Node.js는 V8이라는 JavaScript 엔진으로 구동되는 자바스크립트 런타임(환경)이다.
 
-<img src="./images/wiki_nodejs_11.png">
+<img src="../images/wiki_nodejs_11.png">
 
 - 이 문구를 이해하기 위해서는 자바스크립트가 어떻게 동작하는지 먼저 알아야 합니다. 자바스크립트(JavaScript)는 동적인 웹 페이지를 만들어주기 위해 사용되던 스크립트 언어입니다. 엄연한 프로그래밍 언어이기 때문에 누군가가 컴퓨터가 이해할 수 있도록 바꿔줘야 합니다. 그렇다면 이 역할을 누가 했을까요?
 - 바로 브라우저입니다. 정확히는 브라우저에 내장되어 있던 자바스크립트 엔진이죠. 여기서 V8이 등장합니다. V8은 구글이 개발한 오픈 소스 자바스크립트 엔진입니다. 당시 크롬에 탑재했었죠. 이 V8 엔진은 자바스크립트 코드를 실행하는데 매우 빠르고 효율적으로 설계되어 있었습니다.
@@ -47,7 +47,7 @@
 
 #### 2. Node.js를 사용하면 웹 브라우저 바깥에서 자바스크립트 코드를 실행할 수 있다.
 
-<img src="./images/wiki_nodejs_12.png">
+<img src="../images/wiki_nodejs_12.png">
 
 - 즉 Node.js를 사용하면 웹 브라우저 바깥에서 자바스크립트 코드를 실행할 수 있습니다. <br/>
 이제 브라우저가 아닌 Node.js가 설치되어 있는 컴퓨터에서도 자바스크립트 실행이 가능해진 거죠. <br/>
@@ -72,13 +72,13 @@
 
 #### 5. 논블로킹(Non-bloking) I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
 
-<img src="./images/wiki_nodejs_13.png">
+<img src="../images/wiki_nodejs_13.png">
 
 > 기본적으로 node.js는 모든 이벤트를 비동기처리합니다. 즉 논블로킹 I/O 네트워크 요청이 백그라운드에서 항상 비동기적으로 처리되어 다른 작업을 차단하지 않고 실행할 수 있도록 한다는 뜻입니다. 그래서 요청을 보내고 결과를 기다리는 동안 다른 코드가 계속 실행될 수 있음을 의미하고, 이는 여러 요청을 동시에 처리할 수 있기 때문에 요청이 많은 환경에서 서버의 과부하를 줄여주고 뛰어난 성능을 발휘할 수 있겠습니다.
 <br/>
 <br/>
 
-<img src="./images/wiki_nodejs_14.png">
+<img src="../images/wiki_nodejs_14.png">
 
 > Node.js는 단일 스레드 이벤트 루프를 사용하여 작업을 처리합니다. 즉 하나의 스레드에서 처리하고, 이벤트 루프를 통해 비동기적으로 작업을 조절합니다. 이벤트 루프(event loop)의 뜻은 여러 이벤트가 동시에 발생했을 때 어떤 순서로 콜백함수를 호출할지를 판단하는 것을 의미하며 노드는 이벤트가 종료될 때까지 이벤트 처리를 위한 작업을 반복하므로 루프(loog)라고 부릅니다.
 <br/>
