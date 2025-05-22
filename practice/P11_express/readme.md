@@ -139,9 +139,7 @@ app.get('/about', function(req, res) {
 </head>
 <body>
     <h1>About Page</h1>
-    
     <p>서브페이지들 보여주자</p>
-
 </body>
 </html>
 ```
