@@ -46,4 +46,122 @@ P11_express
 
 PS C:\GitHub\D2505_Nodejs\practice\P11_express>
 ```
+<br/>
+
+### 실습코드
+---
+[server.js]
+```javascript
+const express = require('express');
+const app = express();
+
+const server = app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
+
+app.get('/about', (req, res) => {
+  res.send('About Page');
+});
+```
+
+#### 실행결과
+
+서버구동
+```powershell
+PS C:\P11_express\code> node .\code\server.js
+Server is running on port 3000
+
+```
+
+http://localhost:3000/
+```
+Hello World
+```
+http://localhost:3000/about
+```
+About Page
+```
+
+---
+[server.js]
+```javascript
+const express = require('express');
+const app = express();
+
+const server = app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views');
+app.engine('html', require('ejs').renderFile);
+
+
+app.get('/', function(req, res) {
+  res.render('index.html', { title: 'Home Page' })
+});
+
+app.get('/about', function(req, res) {
+  res.render('about.html', { title: 'About Page' })
+});
+```
+
+
+[views/index.html]
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to My Homepage</h1>
+    <p>Express는 Node.js를 위한 웹 어플리케이션 프레임웍입니다.</p>  
+</body>
+</html>
+```
+
+
+[views/about.html]
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <h1>About Page</h1>
+    
+    <p>서브페이지들 보여주자</p>
+
+</body>
+</html>
+```
+
+#### 실행결과
+
+서버구동
+```powershell
+PS C:\P11_express\code> node .\code\server.js
+Server is running on port 3000
+
+```
+
+http://localhost:3000/
+<h1>Welcome to My Homepage</h1>
+<p>Express는 Node.js를 위한 웹 어플리케이션 프레임웍입니다.</p>  
+<br/>
+
+http://localhost:3000/about
+<h1>About Page</h1>
+<p>서브페이지들 보여주자</p>
+
 
