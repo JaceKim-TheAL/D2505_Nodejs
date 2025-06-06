@@ -86,7 +86,15 @@ P11_express
   `-- https://github.com/sponsors/feross
       `-- safe-buffer@5.2.1
 
-PS C:\GitHub\D2505_Nodejs\practice\P11_express>
+PS C:\GitHub\D2505_Nodejs\practice\P11_express> npm install ejs --save
+
+added 16 packages, and audited 88 packages in 904ms
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
 ```
 <br/>
 
