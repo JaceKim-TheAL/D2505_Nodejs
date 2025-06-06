@@ -10,20 +10,23 @@
 > - [[참조]](https://www.youtube.com/watch?v=zajq7NJflPY)
 
 ---
+
+<!-->
 <style>
   .indent {
     text-indent: 2em; /* 원하는 크기로 조정 가능 */
   }
 </style>
+-->
 
 ### 스케쥴러 패키지 설치
 - [[node-schedule]](https://www.npmjs.com/package/node-schedule) 설치
 - 작업을 특정 시간에 실행할 수 있도록 도와주는 스케줄링 라이브러리
 - 이를 사용하면 cron 스타일 또는 날짜 기반으로 작업을 예약
 - 주요기능
-<ol class="indent"> ▸ 특정 시간에 함수 실행 (예: 매일 오전 9시에 실행) 
-<ol class="indent"> ▸ 반복 작업 예약 (예: 매주 월요일마다 실행) 
-<ol class="indent"> ▸ 이벤트 기반 작업 관리 (예: 실행, 취소, 오류 감지) 
+<ol class="indent"> ▸ 특정 시간에 함수 실행 (예: 매일 오전 9시에 실행) </ol>
+<ol class="indent"> ▸ 반복 작업 예약 (예: 매주 월요일마다 실행) </ol>
+<ol class="indent"> ▸ 이벤트 기반 작업 관리 (예: 실행, 취소, 오류 감지) </ol> 
 - 설치방법
 ```powershell
 npm install node-schedule
