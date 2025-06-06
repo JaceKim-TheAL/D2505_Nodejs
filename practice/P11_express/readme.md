@@ -39,10 +39,11 @@ npm install ejs --save
 > `EJS (Embedded JavaScript)` 는 Node.js에서 사용되는 템플릿 엔진 <br/>
 > HTML 파일 내에서 JavaScript 코드를 삽입하여 동적으로 페이지를 생성할 수 있도록 도와준다. <br/>
 > 이를 통해 서버에서 데이터를 받아 HTML을 렌더링할 수 있다. <br/>
-> 주요기능 
 
+#### 기본 문법
 | 표기  | 기능 |
 |:-----|:-----|
+| <%# ... %>      | 주석                                |
 | <% ... %>       | JavaScript 코드 삽입                 |
 | <%= 변수명 %>    | 변수 출력                            |
 | <%- HTML코드 %>  | HTML 태그 포함 가능                  |
