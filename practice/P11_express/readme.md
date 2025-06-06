@@ -36,7 +36,12 @@ npm install ejs --save
 >> - 변수 출력 (<%= 변수명 %>)
 >> - HTML 태그 포함 가능 (<%- HTML코드 %>)
 >> - 파일 분할 및 재사용 (<%- include('파일경로') %>)
-
+> | 표기  | 기능 |
+> |:-----|:-----|
+> | <% ... %>    | JavaScript 코드 삽입 |
+> | <%= 변수명 %> | 변수 출력 |
+> | <%- HTML코드 %> | HTML 태그 포함 가능 |
+> | <%- include('파일경로') %> | 파일 분할 및 재사용 |
 
 ```powershell
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
