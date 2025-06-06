@@ -63,7 +63,9 @@ npm install ejs --save
 </html>
 
 ```
+<br/>
 
+- Terminal에서 Package 설치
 ```powershell
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
 PS C:\GitHub\D2505_Nodejs\practice\P11_express> npm install express --save
