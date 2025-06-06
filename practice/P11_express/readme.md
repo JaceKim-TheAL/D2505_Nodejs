@@ -49,7 +49,20 @@ npm install ejs --save
 | <%- HTML코드 %>  | HTML 태그 포함 가능                  |
 | <%- include('파일경로') %> | 파일 분할 및 재사용, 페이지 내 반복되는 header나 footer등의 코드는 include를 사용하면 간편하게 레이아웃 작업을 할 수 있다.         |
 
+```html
+<!DOCTYPE html>
+<html>
+  <%- include(./head.ejs) %>
+  <body>
+    <h2>
+      <%= title %>
+    </h2>
+    <%- include(./footer.ejs) %>
+    <a href='/home/<%= products[i]._id%>'>
+  </body>  
+</html>
 
+```
 
 ```powershell
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
