@@ -20,9 +20,9 @@
 -->
 
 ### 스케쥴러 패키지 설치
-- [[node-schedule]](https://www.npmjs.com/package/node-schedule) 설치
-- 작업을 특정 시간에 실행할 수 있도록 도와주는 스케줄링 라이브러리
-- 이를 사용하면 cron 스타일 또는 날짜 기반으로 작업을 예약
+> node-schedule : 작업을 특정 시간에 실행할 수 있도록 도와주는 스케줄링 라이브러리 <br/>
+> 이를 사용하면 cron 스타일 또는 날짜 기반으로 작업을 예약
+- 공식문서 : [[node-schedule]](https://www.npmjs.com/package/node-schedule)
 - 주요기능
 <ol class="indent"> ▸ 특정 시간에 함수 실행 (예: 매일 오전 9시에 실행) </ol>
 <ol class="indent"> ▸ 반복 작업 예약 (예: 매주 월요일마다 실행) </ol>
