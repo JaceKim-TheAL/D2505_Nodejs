@@ -46,7 +46,7 @@ npm install ejs --save
 | <% ... %>       | JavaScript 코드 삽입                 |
 | <%= 변수명 %>    | 변수 출력                            |
 | <%- HTML코드 %>  | HTML 태그 포함 가능                  |
-| <%- include('파일경로') %> | 파일 분할 및 재사용          |
+| <%- include('파일경로') %> | 파일 분할 및 재사용, 페이지 내 반복되는 header나 footer등의 코드는 include를 사용하면 간편하게 레이아웃 작업을 할 수 있다.         |
 
 
 
