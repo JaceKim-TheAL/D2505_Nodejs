@@ -46,6 +46,7 @@ const job = schedule.scheduleJob('0 9 * * *', function(){
 job.cancel();
 ```
 - Cron-style Scheduling
+```text
 *    *    *    *    *    *
 ┬    ┬    ┬    ┬    ┬    ┬
 │    │    │    │    │    │
@@ -55,7 +56,7 @@ job.cancel();
 │    │    └─────────────── hour (0 - 23)
 │    └──────────────────── minute (0 - 59)
 └───────────────────────── second (0 - 59, OPTIONAL)
-
+```
 
 ---
 
