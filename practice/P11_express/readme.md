@@ -19,6 +19,7 @@
 `Express를 사용하면 간단한 API 서버부터 복잡한 웹 애플리케이션까지 빠르게 구축할 수 있습니다.`
 
 - 패키지 설치
+
 ```powershell
 npm install express --save
 ```
@@ -28,7 +29,8 @@ npm install express --save
 ```powershell
 npm install ejs --save
 ```
-> **EJS (Embedded JavaScript)**는 Node.js에서 사용되는 템플릿 엔진 <br/>
+
+> `EJS (Embedded JavaScript)` 는 Node.js에서 사용되는 템플릿 엔진 <br/>
 > HTML 파일 내에서 JavaScript 코드를 삽입하여 동적으로 페이지를 생성할 수 있도록 도와준다. <br/>
 > 이를 통해 서버에서 데이터를 받아 HTML을 렌더링할 수 있다. <br/>
 > 주요기능 
