@@ -23,9 +23,6 @@ Express를 사용하면 간단한 API 서버부터 복잡한 웹 애플리케이
 > `npm5.0` 버전 이후 기본값으로 적용되므로 따로 명시하지 않아도 자동으로 추가
 
 ```powershell
-PS C:\GitHub\D2505_Nodejs\practice\P10_mailsend> node .\sendmail.js
-Email sent successfully: 250 2.0.0 Ok: queued
-PS C:\GitHub\D2505_Nodejs\practice\P10_mailsend> cd ..
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
 PS C:\GitHub\D2505_Nodejs\practice\P11_express> npm install express --save
 
