@@ -22,9 +22,21 @@
 ```powershell
 npm install express --save
 ```
-
 > `--save` 옵션은 vozlwlfmf `dependencies` 항목에 추가하는 역할 <br/>
 > `npm5.0` 버전 이후 기본값으로 적용되므로 따로 명시하지 않아도 자동으로 추가
+
+```powershell
+npm install ejs --save
+```
+> **EJS (Embedded JavaScript)**는 Node.js에서 사용되는 템플릿 엔진 <br/>
+> HTML 파일 내에서 JavaScript 코드를 삽입하여 동적으로 페이지를 생성할 수 있도록 도와준다. <br/>
+> 이를 통해 서버에서 데이터를 받아 HTML을 렌더링할 수 있다. <br/>
+> 주요기능 
+>> - JavaScript 코드 삽입 (<% ... %>)
+>> - 변수 출력 (<%= 변수명 %>)
+>> - HTML 태그 포함 가능 (<%- HTML코드 %>)
+>> - 파일 분할 및 재사용 (<%- include('파일경로') %>)
+
 
 ```powershell
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
