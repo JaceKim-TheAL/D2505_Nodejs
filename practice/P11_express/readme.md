@@ -20,7 +20,9 @@
 <br/>
 
 ---
-- 패키지 설치
+### 패키지 설치
+
+- Express 패키지
 
 ```powershell
 npm install express --save
@@ -28,6 +30,7 @@ npm install express --save
 > `--save` 옵션은 vozlwlfmf `dependencies` 항목에 추가하는 역할 <br/>
 > `npm5.0` 버전 이후 기본값으로 적용되므로 따로 명시하지 않아도 자동으로 추가
 
+- EJS 패키지
 ```powershell
 npm install ejs --save
 ```
@@ -43,6 +46,8 @@ npm install ejs --save
 | <%= 변수명 %>    | 변수 출력 |
 | <%- HTML코드 %>  | HTML 태그 포함 가능 |
 | <%- include('파일경로') %> | 파일 분할 및 재사용 |
+
+
 
 ```powershell
 PS C:\GitHub\D2505_Nodejs\practice> cd .\P11_express\
