@@ -17,7 +17,6 @@
 > - **비동기 처리 지원**: Node.js의 비동기 특성을 활용하여 높은 성능을 제공합니다.
 ⇒  Express를 사용하면 간단한 API 서버부터 복잡한 웹 애플리케이션까지 빠르게 구축할 수 있습니다.
 <br/>
-<br/>
 
 ---
 ### 패키지 설치
@@ -29,6 +28,7 @@ npm install express --save
 ```
 > `--save` 옵션은 vozlwlfmf `dependencies` 항목에 추가하는 역할 <br/>
 > `npm5.0` 버전 이후 기본값으로 적용되므로 따로 명시하지 않아도 자동으로 추가
+<br/>
 
 - EJS 패키지
 ```powershell
