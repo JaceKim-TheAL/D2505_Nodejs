@@ -6,7 +6,7 @@
 
 # 스케쥴러 구현
 > - [node-schedule](https://www.npmjs.com/package/node-schedule) 이라는 모듈을 설치하고, 스케줄러 기능을 빠르게 구현
-> - [스케줄러]((https://www.youtube.com/watch?v=zajq7NJflPY)는는 특정일자/요일/시간/분/초에 지정된 프로그램을 동작시키게 해준다.
+> - [스케줄러](https://www.youtube.com/watch?v=zajq7NJflPY)는 특정일자/요일/시간/분/초에 지정된 프로그램을 동작시키게 해준다.
 <br/>
 
 <!--
