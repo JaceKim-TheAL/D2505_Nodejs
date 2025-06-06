@@ -1,4 +1,5 @@
-<img src="../../images/nodejs_practice.png" width="150">
+[![Practice Code](https://skillicons.dev/icons?heiht="10"&i=nodejs,vscode&theme=dark)](../README.md)
+
 <p style="text-align: right"> 
     <a href="../README.md">[INDEX]</a>
 </p>
